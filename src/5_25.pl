@@ -5,7 +5,7 @@ killer(butch).
 %2
 married(marsellus,mia).
 married(mia,marsellus).
-
+married(X):- married(X, Y).
 %3
 dead(zed).
 
