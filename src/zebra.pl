@@ -27,7 +27,9 @@ sublist([[_,_,schnecke]|T1],S),
 member([_,japaner,_],T1),
 %schnecke rechts von gruen
 sublist([[gruen,_,_]|T2],S),
-member([_,_,schnecke],T2).
+member([_,_,schnecke],T2),
+
+!.
 
 
 
